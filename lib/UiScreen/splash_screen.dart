@@ -8,7 +8,7 @@ import '../Styles/my_colors.dart';
 import '../Styles/my_font.dart';
 import '../Styles/my_icons.dart';
 import '../Styles/my_strings.dart';
-import 'login.dart';
+import 'dashboard.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const Login()),
+        MaterialPageRoute(builder: (context) => const Dashboard()),
       );
     });
   }

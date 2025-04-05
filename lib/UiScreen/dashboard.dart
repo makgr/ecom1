@@ -8,6 +8,8 @@ import 'package:ecom1/UiScreen/tab_profile.dart';
 
 import '../Styles/my_colors.dart';
 import '../Styles/my_icons.dart';
+import 'login.dart';
+import 'search.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
@@ -21,9 +23,10 @@ class _DashboardState extends State<Dashboard> {
 
   final pages = [
     const TabHome(),
-    const TabHome(),
+    const Search(),
     const TabCart(),
-    const TabProfile(),
+    // const TabProfile(),
+    const Login(),
   ];
   @override
   Widget build(BuildContext context) {

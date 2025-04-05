@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'UiScreen/list_screen.dart';
 import 'UiScreen/splash_screen.dart';
 
 void main() {
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Flutter Demo',
+          title: 'Ecom UI 1',
           theme: ThemeData(primarySwatch: Colors.blue),
           home: const SplashScreen(),
         );
